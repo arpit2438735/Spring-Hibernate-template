@@ -10,7 +10,7 @@ Its a work in progress and expected to add more features to it.
 3. Create a new project directory ```/projects/new_sample```
 4. Run the generate command ```mvn archetype:generate -DarchetypeCatalog=local.``` Local tells maven to look to the local repo for all archetypes and present with a list to pick one.
 5. Enter the required parameters and the project is created.
-6. cd into the project directory and run mvn jetty:run
+6. cd into the project directory and run ```mvn jetty:run```.
 
 ### TODOs
 Contributions and ideas are welcome. These are some ideas we would like to implement.
