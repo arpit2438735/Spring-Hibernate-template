@@ -13,14 +13,16 @@ import com.stmicro.eot.persistence.AbstractGeneratedIdEntity;
 public class SampleModel extends AbstractGeneratedIdEntity
 {
 	private static final long serialVersionUID = 1L;
-	private Time inTime;
-    private Time outTime;
     
-    @Column(name="clockin_date")
+    @Column(name="sample_date")
     private Date date;
     
     
     public Date getDate() {
     	return date;
+    }
+    
+    public void setDate(Date date) {
+    	this.date = date;
     }
 }
