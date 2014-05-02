@@ -16,5 +16,5 @@ Its a work in progress and expected to add more features to it.
 Contributions and ideas are welcome. These are some ideas we would like to implement.
 
 1. Remote install on local ```maven:archetype -DarchetypeRepository=path_to_maven_repo_with_archetype_jar```
-2. Deployment Scipt 
+2. Add Deployment Script for Beanstalk
 3. Add ```PMD,CheckStyle``` guidlines to follow best practices
