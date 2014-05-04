@@ -1,6 +1,8 @@
 Spring-Hibernate-template
 =========================
 
+<a href='https://coveralls.io/r/arpit2438735/Spring-Hibernate-template'><img src='https://coveralls.io/repos/arpit2438735/Spring-Hibernate-template/badge.png' alt='Coverage Status' /></a>
+
 Its a work in progress and expected to add more features to it.
 
 
