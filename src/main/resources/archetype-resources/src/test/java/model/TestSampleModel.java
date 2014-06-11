@@ -8,17 +8,16 @@ import java.util.Date;
 
 import org.junit.Assert;
 import org.junit.Test;
-import com.stmicro.eot.model.ClockInOut;
-
+import com.example.template.model.SampleModel
 
 public class TestSampleModel extends BaseIntegrationTest{
 	
 	/**@Test
 	* public void testModel(){
-	*	ClockInOut cinout = new ClockInOut();
-	*	cinout.setDate(new Date());
+	*	SampleModel samplemodel = new SampleModel();
+	*	samplemodel.setDate(new Date());
 	*   saveorUpdateDao(cinout);
-	*	Collection<ClockInOut> allCins = loadAllDao(ClockInOut.class);
+	*	Collection<ClockInOut> allCins = loadAllDao(SampleModel.class);
 	*	Assert.assertEquals(1, allCins.size());
 	*}
 	*/

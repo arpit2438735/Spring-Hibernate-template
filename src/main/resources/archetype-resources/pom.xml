@@ -174,9 +174,10 @@
 			<version>1.7.0</version>
 			<scope>runtime</scope>
 		</dependency>
+		
 	</dependencies>
 	<build>
-		<finalName>EIntray</finalName>
+		<finalName>Sample Hibernate+Spring</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -215,6 +216,12 @@
 					<path>/EIntray</path>
 				</configuration>
 			</plugin>
+			<!-- CheckStyle Plugin -->
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-checkstyle-plugin</artifactId>
+              <version>2.12.1</version>
+             </plugin>
 		</plugins>
 	</build>
 </project>

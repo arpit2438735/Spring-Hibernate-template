@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package com.stmicro.eot.utils;
+
 
 import java.io.IOException;
 import java.util.Properties;

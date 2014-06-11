@@ -7,7 +7,7 @@ import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 
-import com.stmicro.eot.persistence.AbstractGeneratedIdEntity;
+import com.example.template.persistence.AbstractGeneratedIdEntity;
 
 @Entity
 public class SampleModel extends AbstractGeneratedIdEntity
